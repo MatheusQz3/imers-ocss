@@ -1,0 +1,78 @@
+body{
+      height: 100vh;
+      background-image: url("../img/Site-fundo-01-1.png");
+  }
+  @media(min-widht: 360px) {
+    body{
+      font-size: 14px;
+    }
+
+  }
+
+  header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Site-fundo-01-1.png")
+
+  }
+
+
+  .menu {
+    background-color: gainsboro;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-image: url(../img/giphy.gif)
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .menu li{
+    list-style: none;
+  }
+  h1{
+    color: blanchedalmond;
+    text-shadow: -2px 2px 4px black;
+    font-size: 4em;
+  }
+  h2{
+    text-decoration: underline;
+    color:goldenrod; 
+  }
+  .menu ul{
+    display: flex; 
+    justify-content: space-evenly;
+  }
+  .site-title{
+    text-align: center;
+    color: white;
+  }
+  .site-subtitle{
+    text-align: center;
+    font-family: italic;
+    color:white; 
+  } 
+
+  /*reset do css*/
+  * { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+
+.img-portfolio{
+height: 188px;
+width: 188px;
+}
+.menu a{
+  font-family: Cursive;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 10px 20px;
+}
+  
