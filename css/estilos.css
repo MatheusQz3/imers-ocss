@@ -1,0 +1,43 @@
+Body {
+    background-image: url("https://comecarhoje.com/wp-content/uploads/2018/02/Site-fundo-01-1.png");
+      height: 100vh;
+  }
+  .menu {
+    background-color: cyan;
+   
+   
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .menu li{
+    list-style: none;
+  }
+  h1{
+   
+    text-shadow: -2px 2px 4px black;
+  }
+  h2{
+    text-decoration: underline;
+    color: black;
+    text-shadow: -2px 2px 4px pink;
+    
+  
+  }
+  .menu ul{
+    display: flex; 
+    justify-content: space-evenly;
+  }
+  .site-title{
+    text-align: center;
+    color: gray;
+  }
+  .site-subtitle{
+    text-align: center;
+    font-family: italic;
+    color: purple;
+   
